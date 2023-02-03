@@ -1,0 +1,102 @@
+#body {
+	width: 100%;
+	background: #f5f5f5;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header{
+	background-color: #119950;
+	width : 100%;
+	height : 50px;
+	color: white;
+	display: flex; 
+}
+
+#footer{
+	background-color: #119950;
+	width : 100%;
+	height : 50px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+#kotak1 {
+	height: 200%;
+}
+
+#kotak2 {
+	font-family: Bahnschrift;
+	font-size: 14px;
+	border: 4px outset #9c9c9c;
+	border-radius: 10px;
+	background-color: #f0f0f0;
+	width: 30%;
+	height: 500px;
+
+}
+
+#content {
+	background-color: #f5f5f5;
+	width: 100%;
+	height: 100%;
+}
+
+#kotak4 {
+	border : 1px solid #10c930;
+	border-radius: 5px;
+	background-color: #a5e8b0;
+	width : 60%;
+	height: 60px;
+}
+
+#note {
+	width: 80%;
+	font-family: cambria;
+	font-size: 12px;
+	color: #065e14;
+}
+
+#button {
+	border-radius: 5px;
+	background-color: #08781b;
+	width : 50%;
+	height: 40px;
+	font-family: Bahnschrift;
+	font-style: bold;
+	color: white;
+}
+
+.input{
+	width: 50%;
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid grey;
+}
+
+
+@media only screen and (max-width: 768px){
+	#kotak2 {
+		font-family: Bahnschrift;
+		font-size: 14px;
+		border: 4px outset #9c9c9c;
+		border-radius: 10px;
+		background-color: #f0f0f0;
+		width: 60%;
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	#kotak2 {
+		font-family: Bahnschrift;
+		font-size: 14px;
+		border: 4px outset #9c9c9c;
+		border-radius: 10px;
+		background-color: #f0f0f0;
+		width: 80%;
+		height: 400px;
+	}
+}

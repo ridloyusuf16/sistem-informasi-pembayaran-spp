@@ -1,0 +1,438 @@
+body {
+	background: #f5f5f5;
+	margin: 0px;
+	padding: 0px;
+	align-content: center;
+	align-items: center;
+}
+
+b{
+	font-size: 18px;
+}
+p {
+	font-size: 20px;
+}
+
+.header{
+	background-color: #119950;
+	width : 100%;
+	height : 50px;
+	color: white;
+	display: flex; 
+}
+
+li{
+	margin-left: 10px;
+}
+
+#footer{
+	background-color: #119950;
+	width : 100%;
+	height : 50px;
+}
+
+table {
+	width: 70%;
+	border-radius: 4px;
+	border-collapse: collapse;
+	color : black;
+	background-color: white;
+	border: 1px solid #a8a8a8;
+}
+
+#tabeledit{
+	width: 40%;
+	border-radius: 4px;
+	border-collapse: collapse;
+	color : black;
+	background-color: white;
+	border: 1px solid #a8a8a8;
+}
+
+table, th, td{
+	padding: 8px 10px;
+	font-size: 16px;
+}
+
+#kotak1{
+	background-color: #f5f5f5;
+	width: 100%;
+	height: 100%;
+	padding-left: 40px;
+}
+
+#kotak2 {
+	font-family: Bahnschrift;
+	font-size: 14px;
+	border: 4px outset #9c9c9c;
+	border-radius: 10px;
+	background-color: #f0f0f0;
+	width: 97%;
+	height: 100%;
+	padding-bottom: 30px;
+}
+
+#kotak3 {
+	align-self: left;
+	width: 70%;
+	height: 50px;
+}
+
+#kotak4 {
+	width: 80%;
+	height: 500px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+}
+
+#topmenu a:link {
+	padding-left: 15px;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+
+#topmenu a:active {
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+
+#topmenu a:visited{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;	
+}
+
+#topmenu a:hover {
+	font-size: 18px;
+	color: #a6ffa3;
+}
+
+#btntambah{
+	width: 15%;
+	height: 30px;
+	background-color: #00cc52;
+	border: 1px solid #26e042;
+	border-radius: 3px;
+	font-size: 12px;
+	font-family: Arial;
+	color: white;
+
+}
+
+#btnubah{
+	width: 40%;
+	height: 30px;
+	background-color: #ffc72e;
+	border: 1px solid #ffca2b;
+	border-radius: 3px;
+	font-size: 12px;
+	font-family: Arial;
+	color: white;
+}
+
+#btnhapus{
+	width: 40%;
+	height: 30px;
+	background-color: #ff2b2b;
+	border: 1px solid #f00000;
+	border-radius: 3px;
+	font-size: 12px;
+	font-family: Arial;
+	color: white;
+}
+
+#btntampil{
+	width: 30%;
+	height: 30px;
+	background-color: #4a5cff;
+	border: 1px solid #1930fc;
+	border-radius: 3px;
+	font-size: 11px;
+	font-family: Arial;
+	color: white;
+}
+
+#btnsimpan{
+	width: 10%;
+	height: 30px;
+	background-color: #4a5cff;
+	border: 1px solid #1930fc;
+	border-radius: 3px;
+	font-size: 12px;
+	font-family: Arial;
+	color: white;
+}
+
+.input {
+	width: 200px;
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid grey;
+}
+
+@media only screen and (max-width: 768px){
+
+	.header{
+		background-color: #119950;
+		width : 100%;
+		height : 50px;
+		color: white;
+		display: flex; 
+	}
+
+	li{
+		align-content: center;
+		align-self: center;
+		align-items: center;
+		margin-left: 0px;
+	}
+
+	#topmenu a:link {
+		padding-left: 15px;
+		font-size: 12px;
+		text-decoration: none;
+		color: white;
+		align-self: center;
+	}
+
+	#topmenu a:active {
+		font-size: 12px;
+		text-decoration: none;
+		color: black;
+	}
+
+	#topmenu a:visited{
+		font-size: 12px;
+		text-decoration: none;
+		color: white;	
+	}
+
+	#topmenu a:hover {
+		font-size: 12px;
+		color: #a6ffa3;
+	}
+
+	b{
+		font-size: 15px;
+	}
+
+	#kotak2 {
+		font-family: Bahnschrift;
+		font-size: 14px;
+		border: 4px outset #9c9c9c;
+		border-radius: 10px;
+		background-color: #f0f0f0;
+		width: 90%;
+		height: 100%;
+	}
+
+	#kotak4 {
+		width: 80%;
+		height: 400px;
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 4px;
+		font-size: 14px;
+	}
+
+	#kotak4 p {
+		font-size: 12px;
+	}
+
+	#btnubah{
+		width: 90%;
+		height: 25px;
+		background-color: #ffc72e;
+		border: 1px solid #ffca2b;
+		border-radius: 3px;
+		font-size: 12px;
+		font-family: Arial;
+		color: white;
+	}
+
+	#btnhapus{
+		width: 90%;
+		height: 25px;
+		background-color: #ff2b2b;
+		border: 1px solid #f00000;
+		border-radius: 3px;
+		font-size: 12px;
+		font-family: Arial;
+		color: white;
+	}
+
+	#btntampil{
+		width: 30%;
+		height: 20px;
+		background-color: #4a5cff;
+		border: 1px solid #1930fc;
+		border-radius: 3px;
+		font-size: 10px;
+		font-family: Arial;
+		color: white;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.header{
+		background-color: #119950;
+		width : 100%;
+		height : 50px;
+		color: white;
+		display: flex; 
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	li{
+		align-content: center;
+		align-self: left;
+		align-items: center;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	#topmenu b{
+		font-size: 8px;
+
+	}
+
+
+	#topmenu a:link {
+		padding-left: 3px;
+		font-size: 6px;
+		text-decoration: none;
+		color: white;
+		align-self: center;
+	}
+
+	#topmenu a:active {
+		font-size: 6px;
+		text-decoration: none;
+		color: black;
+	}
+
+	#topmenu a:visited{
+		font-size: 6px;
+		text-decoration: none;
+		color: white;	
+	}
+
+	#topmenu a:hover {
+		font-size: 6px;
+		color: #a6ffa3;
+	}
+
+	table {
+		width: 90%;
+		border-radius: 4px;
+		border-collapse: collapse;
+		color : black;
+		background-color: white;
+		border: 1px solid #a8a8a8;
+	}
+
+	#tabeledit{
+		width: 40%;
+		border-radius: 4px;
+		border-collapse: collapse;
+		color : black;
+		background-color: white;
+		border: 1px solid #a8a8a8;
+	}
+
+	table, th, td{
+		padding: 2px 2px;
+		font-size: 8px;
+	}
+
+
+	.input {
+		width: 150px;
+		height: 20px;
+		border-radius: 3px;
+		border: 1px solid grey;
+		font-size: 10px;
+	}
+
+	#kotak2 {
+		font-family: Bahnschrift;
+		font-size: 14px;
+		border: 4px outset #9c9c9c;
+		border-radius: 10px;
+		background-color: #f0f0f0;
+		width: 90%;
+		height: 100%;
+	}
+
+	#kotak4 {
+		width: 80%;
+		height: 250px;
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 4px;
+		font-size: 8px;
+	}
+
+	#kotak4 p {
+		font-size: 8px;
+	}
+
+	#btntambah{
+		width: 25%;
+		height: 30px;
+		background-color: #00cc52;
+		border: 1px solid #26e042;
+		border-radius: 3px;
+		font-size: 8px;
+		font-family: Arial;
+		color: white;
+	}
+
+	#btnubah{
+		width: 90%;
+		height: 20px;
+		background-color: #ffc72e;
+		border: 1px solid #ffca2b;
+		border-radius: 3px;
+		font-size: 8px;
+		font-family: Arial;
+		color: white;
+	}
+
+	#btnhapus{
+		width: 90%;
+		height: 20px;
+		background-color: #ff2b2b;
+		border: 1px solid #f00000;
+		border-radius: 3px;
+		font-size: 8px;
+		font-family: Arial;
+		color: white;
+	}
+
+	#btntampil{
+		width: 30%;
+		height: 20px;
+		background-color: #4a5cff;
+		border: 1px solid #1930fc;
+		border-radius: 3px;
+		font-size: 8px;
+		font-family: Arial;
+		color: white;
+	}
+
+	#btnsimpan{
+		width: 20%;
+		height: 20px;
+		background-color: #4a5cff;
+		border: 1px solid #1930fc;
+		border-radius: 3px;
+		font-size: 8px;
+		font-family: Arial;
+		color: white;
+	}
+}
